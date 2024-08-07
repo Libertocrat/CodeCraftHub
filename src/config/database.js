@@ -3,7 +3,6 @@ const dotenv = require('dotenv');
 
 // Load environment variables from the .env file
 dotenv.config();
-console.log(`${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PWD}`);
 
 const User = require('../models/userModel');
 
